@@ -4,3 +4,16 @@
     border-radius: 5px;
     background-color: $white;
 }
+
+@mixin learn-more-underline {
+    content: '';
+    position: absolute;
+    opacity: 0.4;
+    height: 12px;
+    width: 160px;
+    top: 16px;
+    left: -8px;
+    border-radius: 100vh;
+    z-index: -1;
+    transition: opacity 0.1s ease-in-out;
+}
