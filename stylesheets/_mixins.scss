@@ -1,0 +1,6 @@
+@mixin line {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: $white;
+}

@@ -1,0 +1,24 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    font-size: 18px
+}
+
+// hero section
+@import '_hero.scss';
+
+// brand presentation section
+@import 'brand-presentation.scss';
