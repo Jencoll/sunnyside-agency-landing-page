@@ -130,6 +130,12 @@
             .txt-only {
                 text-align: center;
             }
+
+            .items {
+                txt-box {
+                    bottom: 10%;
+                }
+            }
         }
     }
 }
@@ -144,6 +150,15 @@
               .img-box-mobile {
                   display: flex;
                   justify-content: center;
+                  height: 100%;
+
+                  img {
+                      width: auto;
+                  }
+              }
+
+              .txt-box {
+                  bottom: 5%;
               }
           }
       }

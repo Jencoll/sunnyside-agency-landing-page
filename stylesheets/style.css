@@ -357,6 +357,9 @@ header .hero .arrow-container {
   .brand-presentation .brand-grid .txt-only {
     text-align: center;
   }
+  .brand-presentation .brand-grid .items txt-box {
+    bottom: 10%;
+  }
 }
 @media screen and (max-width: 500px) {
   .brand-presentation .brand-grid .items .img-box-desktop {
@@ -369,6 +372,13 @@ header .hero .arrow-container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 100%;
+  }
+  .brand-presentation .brand-grid .items .img-box-mobile img {
+    width: auto;
+  }
+  .brand-presentation .brand-grid .items .txt-box {
+    bottom: 5%;
   }
 
   .left {
