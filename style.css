@@ -17,7 +17,7 @@ body {
 header {
   width: 100%;
   height: 700px;
-  background: center/cover no-repeat url(/images/desktop/image-header.jpg);
+  background: center/cover no-repeat url("/images/desktop/image-header.jpg");
 }
 header .header-navbar {
   width: 100%;
