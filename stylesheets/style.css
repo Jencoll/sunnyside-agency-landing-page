@@ -380,4 +380,53 @@ header .hero .arrow-container {
   color: #5a636c;
 }
 
+footer {
+  width: 100%;
+}
+footer .footer-img-wrap {
+  display: grid;
+  grid-template: 1fr/repeat(4, 1fr);
+}
+footer .footer-img-wrap .footer-img-mobile {
+  display: none;
+}
+footer .footer-img-wrap .footer-img-desktop {
+  width: 100%;
+}
+footer .footer-img-wrap .footer-img-desktop img {
+  width: 100%;
+  height: 100%;
+}
+footer .footer-txt-wrap {
+  width: 100%;
+  text-align: center;
+  background: #458c7e;
+  padding: 3rem;
+}
+footer .footer-txt-wrap .footer-nav {
+  padding: 1.5rem;
+}
+footer .footer-txt-wrap .footer-nav .footer-menu {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-txt-wrap .footer-nav .footer-menu .footer-menu-items {
+  margin: 0 1.5rem;
+  list-style-type: none;
+  width: 70px;
+}
+footer .footer-txt-wrap .footer-nav .footer-menu .footer-menu-items a {
+  text-decoration: none;
+  color: #25564b;
+  font-family: "Barlow";
+}
+footer .footer-txt-wrap .social-networks-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+footer .footer-txt-wrap .social-networks-wrap .social-network-img {
+  margin: 0 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
