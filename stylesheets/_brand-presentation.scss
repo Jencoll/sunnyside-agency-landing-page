@@ -101,12 +101,12 @@
         }
 
         .left {
-            background: center / cover url('/images/desktop/image-graphic-design.jpg');
+            background: center / cover url(../images/desktop/image-graphic-design.jpg);
             color: $darkcyan;
         }
 
         .right {
-            background: center / cover url('/images/desktop/image-photography.jpg');
+            background: center / cover url(../images/desktop/image-photography.jpg);
             color: $darkblue;
         }
     }
@@ -149,10 +149,10 @@
       }
 
       .left {
-          background: center / cover url('/images/mobile/image-graphic-design.jpg');
+          background: center / cover url(../images/mobile/image-graphic-design.jpg);
       }
 
       .right {
-          background: center / cover url('/images/mobile/image-photography.jpg');
+          background: center / cover url(../images/mobile/image-photography.jpg);
       }
 }
