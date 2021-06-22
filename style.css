@@ -12,7 +12,6 @@ html {
 body {
   width: 100%;
   font-size: 18px;
-  line-height: 1.5;
 }
 
 header {
@@ -224,8 +223,7 @@ header .hero .arrow-container {
   font-size: 2.5rem;
 }
 .brand-presentation .brand-grid .txt-only .txt-wrap p {
-  font-family: "Barlow";
-  color: #5a636c;
+  line-height: 1.5;
   padding: 1.5rem 0;
 }
 .brand-presentation .brand-grid .txt-only .txt-wrap .learn-more-btn {
@@ -278,6 +276,7 @@ header .hero .arrow-container {
   position: absolute;
   bottom: 15%;
   width: 350px;
+  line-height: 1.5;
 }
 .brand-presentation .brand-grid .img-box-up .txt-box h3 {
   font-size: 30px;
@@ -286,7 +285,6 @@ header .hero .arrow-container {
 }
 .brand-presentation .brand-grid .img-box-up .txt-box p {
   margin-top: 1.5rem;
-  font-family: "Barlow";
 }
 .brand-presentation .brand-grid .left {
   background: center/cover url(/images/desktop/image-graphic-design.jpg);
@@ -331,53 +329,16 @@ header .hero .arrow-container {
 .testimonials {
   position: relative;
   margin: 2rem auto;
-  padding: 4rem 0;
 }
 .testimonials h4 {
   text-align: center;
   color: #a7abae;
   font-family: "Fraunces";
-  font-size: 25px;
-  font-weight: 900;
-  text-transform: uppercase;
-  padding: 2rem 0 5rem;
 }
 .testimonials .cards-wrap {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 7rem 1rem;
-  width: 100%;
-}
-.testimonials .cards-wrap .card {
-  width: 30%;
-  min-width: 350px;
-  max-width: 500px;
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  flex: 1;
-}
-.testimonials .cards-wrap .card .img-card img {
-  border-radius: 50%;
-}
-.testimonials .cards-wrap .card p {
-  font-family: "Barlow";
-  padding: 3rem 1rem;
-  text-align: center;
-  color: #5a636c;
-}
-.testimonials .cards-wrap .card h5 {
-  font-family: "Fraunces";
-  font-weight: 900;
-  margin-bottom: 0.5rem;
-}
-.testimonials .cards-wrap .card h6 {
-  font-family: "Barlow";
-  color: #5a636c;
 }
 
 /*# sourceMappingURL=style.css.map */

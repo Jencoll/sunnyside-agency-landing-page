@@ -14,7 +14,8 @@ html {
 
 body {
     width: 100%;
-    font-size: 18px
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 // hero section
@@ -22,3 +23,6 @@ body {
 
 // brand presentation section
 @import 'brand-presentation.scss';
+
+// testimonials section
+@import '_testimonials.scss';

@@ -1,0 +1,60 @@
+.testimonials {
+    position: relative;
+    margin: 2rem auto;
+    padding: 4rem 0;
+
+    h4 {
+        text-align: center;
+        color: $grayblue;
+        font-family: $fraunces;
+        font-size: 25px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 2rem 0 5rem;
+    }
+
+    .cards-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 7rem 1rem;
+        width: 100%;
+
+        .card {
+            width: 30%;
+            min-width: 350px;
+            max-width: 500px;
+            padding: 0 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            flex: 1;
+
+            .img-card {
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            p {
+                font-family: $barlow;
+                padding: 3rem 1rem;
+                text-align: center;
+                color: $verydarkgrayblue;
+            }
+
+            h5 {
+                font-family: $fraunces;
+                font-weight: 900;
+                margin-bottom: 0.5rem;
+            }
+
+            h6 {
+                font-family: $barlow;
+                color: $verydarkgrayblue;
+            }
+        }
+    }
+}

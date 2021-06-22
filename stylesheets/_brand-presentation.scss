@@ -43,7 +43,8 @@
                 }
 
                 p {
-                    line-height: 1.5;
+                    font-family: $barlow;
+                    color: $verydarkgrayblue;
                     padding: 1.5rem 0;
                 }
 
@@ -85,7 +86,6 @@
                 position: absolute;
                 bottom: 15%;
                 width: 350px;
-                line-height: 1.5;
 
                 h3 {
                     font-size: 30px;
@@ -95,6 +95,7 @@
 
                 p {
                     margin-top: 1.5rem;
+                    font-family: $barlow;
                 }
             }
         }
@@ -111,11 +112,7 @@
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .brand-presentation .brand-grid .items .img-box-desktop .img-desktop {
-//         width: auto;
-//     }
-// }
+// gaDS
 
 @media screen and (max-width: 900px) {
     .brand-presentation {
@@ -129,21 +126,29 @@
             .second-el {
                 grid-area: 1;
             }
+
+            .txt-only {
+                text-align: center;
+            }
         }
     }
 }
 
 @media screen and (max-width: 500px) {
-      .brand-presentation .brand-grid .items {
-          .img-box-desktop {
-              display: none;
-          }
+      .brand-presentation .brand-grid {
+          .items {
+              .img-box-desktop {
+                  display: none;
+              }
 
-          .img-box-mobile {
-              display: flex;
-              justify-content: center;
+              .img-box-mobile {
+                  display: flex;
+                  justify-content: center;
+              }
           }
       }
+
+
 
       .left {
           background: center / cover url(/images/mobile/image-graphic-design.jpg);
