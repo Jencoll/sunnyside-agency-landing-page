@@ -16,7 +16,6 @@ header {
             height: 50px;
         }
 
-
         .menu {
             height: 50px;
             display: flex;
@@ -28,7 +27,6 @@ header {
                 line-height: 50px;
                 list-style-type: none;
                 font-family: $barlow;
-
 
                 &:not(:last-of-type) {
                     margin-right: 2rem;
@@ -143,7 +141,6 @@ header {
 
                 .line {
                     @include line;
-                    width: 100%;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
@@ -153,7 +150,6 @@ header {
                         content: '';
                         @include line;
                         bottom: 10px;
-                        width: 100%;
                         transition: all 0.2s ease-in-out;
                     }
 
@@ -161,7 +157,6 @@ header {
                         content: '';
                         @include line;
                         top: 10px;
-                        width: 100%;
                         transition: all 0.2s ease-in-out;
                     }
                 }
@@ -191,9 +186,13 @@ header {
 }
 
 @media screen and (max-width: 700px) {
-    header .hero {
-        .arrow-container {
-            margin-top: 40px;
+    header {
+        background: center / cover no-repeat url(/images/mobile/image-header.jpg);
+
+        .hero {
+            .arrow-container {
+                margin-top: 80px;
+            }
         }
     }
 }

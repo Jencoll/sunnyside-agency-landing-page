@@ -43,6 +43,11 @@ footer {
                         font-family: $barlow;
                     }
                 }
+
+                .footer-menu-items:hover a {
+                    color: $white;
+                }
+
             }
         }
 
@@ -53,10 +58,50 @@ footer {
 
             .social-network-img {
                 margin: 0 1rem;
+                cursor: pointer;
+            }
 
+            .social-network-img:hover img {
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(167deg) brightness(104%) contrast(103%);
             }
         }
     }
 
+    .attribution {
+        bottom: 10px;
+        color: $darkcyan;
+        padding: 1rem;
+        font-size: 12px;
+        text-align: center;
 
+        a {
+            text-decoration: none;
+            color: $verydarkdesblue;
+        }
+
+    }
+}
+
+// mobile version
+
+@media screen and (max-width: 715px) {
+    footer {
+        .footer-img-wrap {
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+
+            .footer-img-desktop {
+                display: none;
+            }
+
+            .footer-img-mobile {
+                display: block;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }

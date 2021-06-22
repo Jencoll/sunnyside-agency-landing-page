@@ -78,8 +78,8 @@
 
         .img-box-up {
             position: relative;
-            text-align: center;
             display: flex;
+            text-align: center;
             justify-content: center;
 
             .txt-box {
@@ -112,7 +112,7 @@
     }
 }
 
-// gaDS
+// mobile version
 
 @media screen and (max-width: 900px) {
     .brand-presentation {
@@ -147,8 +147,6 @@
               }
           }
       }
-
-
 
       .left {
           background: center / cover url(/images/mobile/image-graphic-design.jpg);
